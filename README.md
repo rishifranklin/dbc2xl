@@ -1,4 +1,4 @@
-# dbc2xls
+# dbc2xl
 
 Command-line tool to convert a CAN DBC file into an Excel workbook (.xlsx) with:
 - Messages (IDs, DLC, cycle times, senders, comments, etc.)
@@ -14,3 +14,4 @@ Command-line tool to convert a CAN DBC file into an Excel workbook (.xlsx) with:
 ## Install (editable)
 ```bash
 pip install -e .
+
