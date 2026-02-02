@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dbc2xl"
+version = "1.0.0"
+description = "Convert CAN DBC files to a structured Excel (.xlsx) export"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "cantools>=38.0.0",
+  "openpyxl>=3.1.0",
+]
+authors = [{ name = "dbc2xlsx" }]
+license = { text = "Apache-2.0" }
+
+[project.scripts]
+dbc2xl = "dbc2xl.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

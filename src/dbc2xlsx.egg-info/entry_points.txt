@@ -1,0 +1,2 @@
+[console_scripts]
+dbc2xlsx = dbc2xlsx.cli:main
