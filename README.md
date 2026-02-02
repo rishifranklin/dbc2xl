@@ -7,11 +7,12 @@ Command-line tool to convert a CAN DBC file into an Excel workbook (.xlsx) with:
 - Attributes (message/signal/node attribute key-values)
 - Value tables (flattened choices)
 
-- CLI: dbc2xlsx -i input.dbc -o output.xlsx
--      dbc2xlsx -i input.dbc -o output.xlsx --log-level DEBUG
+- CLI: dbc2xl -i input.dbc -o output.xlsx
+-      dbc2xl -i input.dbc -o output.xlsx --log-level DEBUG
 
 
 ## Install (editable)
 ```bash
 pip install -e .
+
 
